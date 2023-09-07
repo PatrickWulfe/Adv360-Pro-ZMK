@@ -85,7 +85,7 @@
 
     // Home row mods
     #define _F_SFT &hm_l LSHFT F  // Shift on index fingers
-    #define _J_SFT &hm_r RSHFT j
+    #define _J_SFT &hm_r RSHFT J
     #define _D_CTL &hm_l LCTRL D   // Control on middle fingers
     #define _K_CTL &hm_r RCTRL K
     #define _S_ALT &hm_l LALT S  // Alt on index down
