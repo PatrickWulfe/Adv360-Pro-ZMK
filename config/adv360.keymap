@@ -25,7 +25,7 @@
 #define THUMBS THUMBS_LEFT THUMBS_RIGHT
 
 &lt {
-    quick-tap-ms = <300>;
+    quick-tap-ms = <220>;
     global-quick-tap;
 };
 
@@ -51,11 +51,12 @@
         label = "HOMEROW_MODS_LEFT";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
+        quick-tap-ms = <175>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_RIGHT THUMBS>;
         global-quick-tap;
+        hold-trigger-on-release;
     };
 
     hm_r: homerow_mods_right {
@@ -63,11 +64,12 @@
         label = "HOMEROW_MODS_RIGHT";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
+        quick-tap-ms = <175>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_LEFT THUMBS>;
         global-quick-tap;
+        hold-trigger-on-release;
     };
   };
 
